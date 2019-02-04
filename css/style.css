@@ -29,13 +29,24 @@ u1{
 }
 
 .button_1{
-  height:38px;
+  height:50px;
   background:#e8491d;
-  border:0;
+  border:2px solid #ffffff;
+
   padding-left: 20px;
   padding right:20px;
   color:#ffffff;
 }
+
+button:hover {
+    background-color:#23bf2a;
+}
+
+button:active {
+    position:relative;
+    top:1px;
+}
+
 /* Header 28:27*/
 
 header{
@@ -96,6 +107,11 @@ header a:hover{
 #showcase a{
   text-decoration:none;
   color:#35424a;
+  font-weight:bold;
+}
+
+#showcase a:hover{
+  color:#cccccc;
   font-weight:bold;
 }
 
@@ -165,6 +181,10 @@ article#main-col{
 #main a{
   text-decoration:none;
   color:#ff9900;
+  font-weight:bold;
+}
+#main a:hover{
+  color:#cccccc;
   font-weight:bold;
 }
 
