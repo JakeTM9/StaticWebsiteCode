@@ -16,6 +16,7 @@ body{
 u1{
   margin:0;
   padding:0;
+  <BR clear: "all">
 
 }
 
@@ -92,6 +93,12 @@ header a:hover{
   color:#ffffff;
 }
 
+#showcase a{
+  text-decoration:none;
+  color:#35424a;
+  font-weight:bold;
+}
+
 #showcase h1{
   margin-top:100px;
   font-size:55px;
@@ -154,6 +161,11 @@ aside#sidebar .quote input, aside #sidebar .quote textarea{
 article#main-col{
   float:left;
   width: 65%;
+}
+#main a{
+  text-decoration:none;
+  color:#ff9900;
+  font-weight:bold;
 }
 
 /* Services */
