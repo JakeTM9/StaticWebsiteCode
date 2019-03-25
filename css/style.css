@@ -4,6 +4,7 @@ body{
   padding:0;
   margin:0;
   background-color:#e5d3b3;
+  background: url('../img/b5.jpg');
 }
 
 /*Global*/
@@ -22,7 +23,7 @@ u1{
 
 .dark{
   padding:15px;
-  background:#654321;
+  background:rgb(129, 85, 85);
   color: #f2f0e6;
   margin-top:10px;
   margin-bottom:10px;
@@ -31,8 +32,8 @@ u1{
 .button_1{
   height:50px;
   min-width: 150px;
-  background:#987554;
-  border:2px solid #f2f0e6;
+  background:rgb(129, 85, 85);
+  border:2px solid black;
 
   padding-left: 0px;
   padding right:20px;
@@ -42,8 +43,8 @@ u1{
 
 button:hover {
     background-color:#f2f0e6;
-    border:2px solid #987554;
-    color:#987554;
+    border:2px solid black;
+    color: rgb(129, 85, 85);
 }
 
 button:active {
@@ -54,11 +55,11 @@ button:active {
 /* Header 28:27*/
 
 header{
-  background:#987554;
+  background: url('../img/b6.jpg');
   color:#f2f0e6;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#664229 3px solid;
+  border-bottom:black 3px solid;
 }
 
 header a{
@@ -91,7 +92,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#664229;
+  color:black;
   font-weight:bold;
 }
 
@@ -103,17 +104,19 @@ header a:hover{
 /* Showcase*/
 #showcase{
   min-height: 240px;
-  background: #987554;
+  background: url('../img/b5.jpg') repeat-x ;
+
+
   float:none;
   text-allign:left;
-  color:#f2f0e6;
-  border-bottom:#664229 3px solid;
+  color:black;
+  border-bottom:black 3px solid;
 }
 
 #showcase a{
   text-decoration:none;
-  color:#664229;
-  font-weight:bold;
+  color: rgb(129, 85, 85);
+  font-weight: bold;
 }
 
 #showcase a:hover{
@@ -134,9 +137,10 @@ header a:hover{
 /*newsletter*/
 #newsletter{
   padding:15px;
-  color: #ffffff;
-  background:#d2b48c;
-  border-bottom:#664229 3px solid;
+  color: white;
+  background: url('../img/b7.jpg');
+ background-color: aqua;
+  border-bottom:black 3px solid;
 }
 
 #newsletter h1{
@@ -156,6 +160,7 @@ header a:hover{
 
 /* boxes */
 #boxes .box{
+  
   float:left;
   text-allign:center;
   width:30%;
@@ -165,6 +170,10 @@ header a:hover{
 #boxes .box img{
   width:150px;
   height:150px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+  border-left: black 2px solid;
+  border-right: black 2px solid;
 }
 #boxes .button_1{
   test-allign:center;
@@ -190,7 +199,7 @@ article#main-col{
 }
 #main a{
   text-decoration:none;
-  color:#e5d3b3;
+  color:rgb(20, 20, 20);
   font-weight:bold;
 }
 #main a:hover{
@@ -208,12 +217,12 @@ ul#services li{
 }
 
 footer{
-  border-top:#664229 3px solid;
-  border-bottom:#664229 3px solid;
+  border-top:black 3px solid;
+  border-bottom:black 3px solid;
   padding: 20px;
   margin-top:20px;
   color: #ffffff;
-  background: #987554;
+  background: url('../img/b6.jpg');
   text-allign: center;
 }
 
